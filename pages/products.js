@@ -50,7 +50,7 @@ function ProductCard({ product, index }) {
 
 export default function ProductsPage() {
   return (
-    <Layout title="Our Products" description={`Products built by ${company.name}: IdentitySearch.ai and Cpabossfootwear.com.`}>
+    <Layout title="Our Products" description={`Products from ${company.legalName}: IdentitySearch.ai, an AI report generator, and Cpabossfootwear.com, an online shoe store.`}>
       <PageHeader title={productsIntro.title} highlight={productsIntro.highlight} text={productsIntro.text} />
       <section className="bg-white py-16 md:py-20">
         <div className="mx-auto grid max-w-4xl gap-6 px-4 md:grid-cols-2 md:px-6">

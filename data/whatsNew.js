@@ -11,7 +11,7 @@ export const companyUpdate = {
   image: "/images/whats-new/company-update.jpg",
   imageAlt: "Two colleagues reviewing work on a computer screen",
   headline:
-    "Innovation Solution Provider was founded in 2026 and is a limited liability company registered in Wyoming, USA. Today we run two online businesses: IdentitySearch.ai, our AI report generator, and Cpabossfootwear.com, our Shopify shoe store.",
+    "Cpa Boss Affiliate was founded in 2026 and is a limited liability company registered in Wyoming, USA. Today we run two online businesses: IdentitySearch.ai, our AI report generator, and Cpabossfootwear.com, our Shopify shoe store.",
   text: "You will see no inflated customer counts or revenue statistics on this page. We are a young, small team, and we would rather let our products speak for themselves.",
   links: [
     { label: "Company Updates", href: "#company-updates" },

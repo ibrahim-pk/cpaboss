@@ -156,7 +156,7 @@ function WorkValues() {
 
 export default function LeadershipPage() {
   return (
-    <Layout title="Leadership" description={`Meet the leadership team of ${company.name}.`}>
+    <Layout title="Leadership" description={`Meet the leadership team of ${company.legalName}, owner of IdentitySearch.ai and Cpabossfootwear.com.`}>
       <PageHeader title={leadershipIntro.title} highlight={leadershipIntro.highlight} text={leadershipIntro.text} />
       <Leaders />
       <Structure />

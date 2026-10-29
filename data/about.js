@@ -19,7 +19,7 @@ export const businessProfile = {
   eyebrow: "Business profile",
   title: "The essentials, at a glance",
   rows: [
-    { label: "Legal name", value: company.name },
+    { label: "Legal name", value: company.legalName },
     { label: "Entity type", value: "Limited Liability Company" },
     { label: "Founded", value: "2026" },
     { label: "Headquarters", value: "New York, USA" },
@@ -27,7 +27,7 @@ export const businessProfile = {
     { label: "Products", value: "IdentitySearch.ai, Cpabossfootwear.com" },
     { label: "Team size", value: "2–10" },
     { label: "Tax ID / EIN", value: company.ein },
-    { label: "Website", value: "innovationsolutionprovider.com", href: "https://innovationsolutionprovider.com" },
+    { label: "Website", value: "cpabossaffiliate.com", href: "https://cpabossaffiliate.com" },
     { label: "Email", value: company.email, href: `mailto:${company.email}` },
     { label: "Phone", value: company.phone, href: company.phoneHref },
   ],

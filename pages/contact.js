@@ -244,7 +244,7 @@ function MapSection() {
 
 export default function ContactPage() {
   return (
-    <Layout title="Contact Us" description={`Get in touch with ${company.name}.`}>
+    <Layout title="Contact Us" description={`Contact ${company.legalName} about IdentitySearch.ai reports or Cpabossfootwear.com orders. Email ${company.email}.`}>
       <section className="bg-white py-14 md:py-20">
         <div className="mx-auto grid max-w-6xl items-start gap-12 px-4 md:px-6 lg:grid-cols-[0.85fr_1.15fr] lg:gap-14">
           <ContactDetails />

@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Logo from "./Logo";
 import { company, navLinks } from "../data/site";
-import { FacebookIcon, TwitterIcon, LinkedinIcon, PinIcon, PhoneIcon, MailIcon, IdIcon } from "./Icons";
+import { PinIcon, PhoneIcon, MailIcon, IdIcon } from "./Icons";
 
 function ColumnTitle({ children }) {
   return (
@@ -24,12 +24,6 @@ function ContactRow({ icon: Icon, children }) {
 }
 
 export default function Footer() {
-  const socials = [
-    { href: company.social.facebook, label: "Facebook", Icon: FacebookIcon },
-    { href: company.social.twitter, label: "Twitter", Icon: TwitterIcon },
-    { href: company.social.linkedin, label: "LinkedIn", Icon: LinkedinIcon },
-  ];
-
   return (
     <footer className="bg-[#FBFEF7]">
       <div className="mx-auto max-w-6xl px-4 pt-14 md:px-6">
@@ -40,20 +34,6 @@ export default function Footer() {
               <Logo className="h-11 w-auto md:h-14" />
             </Link>
             <p className="mt-4 max-w-xs text-sm leading-relaxed text-slate-600">{company.tagline}</p>
-            <div className="mt-5 flex gap-3">
-              {socials.map(({ href, label, Icon }) => (
-                <a
-                  key={label}
-                  href={href}
-                  aria-label={label}
-                  target={href.startsWith("http") ? "_blank" : undefined}
-                  rel="noopener noreferrer"
-                  className="flex h-8 w-8 items-center justify-center rounded-full bg-brand-light text-brand transition duration-300 hover:-translate-y-1 hover:bg-brand hover:text-white hover:shadow-md"
-                >
-                  <Icon className="h-4 w-4" />
-                </a>
-              ))}
-            </div>
           </div>
 
           {/* Quick links */}
@@ -96,13 +76,8 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="mt-12 flex flex-col gap-3 border-t border-slate-200 py-6 text-sm text-slate-600 sm:flex-row sm:items-center sm:justify-between">
-          <p>
-            © {new Date().getFullYear()} {company.name}. All Rights Reserved.
-          </p>
-          <Link href="/privacy-policy" className="transition hover:text-brand">
-            Privacy Policy
-          </Link>
+        <div className="mt-12 border-t border-slate-200 py-6 text-center text-sm text-slate-600">
+          <p>{company.copyright}</p>
         </div>
       </div>
     </footer>

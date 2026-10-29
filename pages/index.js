@@ -65,7 +65,7 @@ function Hero() {
             loop
             playsInline
             preload="metadata"
-            aria-label="Innovation Solution Provider LLC brand video"
+            aria-label="Cpa Boss Affiliate brand video"
           />
         </div>
       </div>
@@ -280,7 +280,7 @@ function Contact() {
 
 export default function Home() {
   return (
-    <Layout title="IdentitySearch.ai & Cpabossfootwear.com">
+    <Layout title="AI Reports & Online Footwear">
       <Hero />
       <IntroBand />
       <Principles />

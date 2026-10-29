@@ -1,4 +1,4 @@
-# Innovation Solution Provider LLC — Website
+# Cpa Boss Affiliate — Website
 
 Next.js (Pages Router) + Tailwind CSS.
 

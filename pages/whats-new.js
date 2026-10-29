@@ -145,7 +145,7 @@ function JobOpportunities() {
 
 export default function WhatsNewPage() {
   return (
-    <Layout title="What's New" description={`Company updates, how we measure our work, and what's next at ${company.name}.`}>
+    <Layout title="What's New" description={`Company updates, how we measure our products, and what's next at ${company.legalName}.`}>
       <PageHeader title={whatsNewIntro.title} highlight={whatsNewIntro.highlight} text={whatsNewIntro.text} />
       <CompanyUpdate />
       <HowWeMeasure />

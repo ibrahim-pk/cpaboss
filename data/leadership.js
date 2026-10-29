@@ -10,13 +10,13 @@ export const leadershipIntro = {
 export const leaders = [
   {
     name: "Md Biplab Hossain",
-    role: "President and Founder, Innovation Solution Provider LLC, USA.",
+    role: "President and Founder, Cpa Boss Affiliate, USA.",
     photo: "/images/leaders/biplab-hossain.jpg",
     initials: "BH",
     sections: [
       {
         label: "Work",
-        text: "Equipped with extensive experience in performance marketing, software development, and digital search platforms, Md Biplab Hossain brings strong strategic leadership and technical insight to Innovation Solution Provider LLC. As the Founder and President, he leads the development and growth of the company's two products: IdentitySearch.ai, an AI report generator powered by Google Gemini, and Cpabossfootwear.com, an online shoe store built on Shopify. He oversees end-to-end strategy, marketing, and technology integrations to deliver secure, reliable, and high-performance experiences to customers nationwide.",
+        text: "Equipped with extensive experience in performance marketing, software development, and digital search platforms, Md Biplab Hossain brings strong strategic leadership and technical insight to Cpa Boss Affiliate. As the Founder and President, he leads the development and growth of the company's two products: IdentitySearch.ai, an AI report generator powered by Google Gemini, and Cpabossfootwear.com, an online shoe store built on Shopify. He oversees end-to-end strategy, marketing, and technology integrations to deliver secure, reliable, and high-performance experiences to customers nationwide.",
       },
       {
         label: "Life",

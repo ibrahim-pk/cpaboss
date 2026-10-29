@@ -35,16 +35,18 @@ function useScrollReveal() {
 }
 
 export default function Layout({ title, description, children }) {
-  const pageTitle = title ? `${title} | ${company.name}` : company.name;
+  const pageTitle = title ? `${title} | ${company.siteTitle}` : company.siteTitle;
+  const pageDescription = description || company.description;
   useScrollReveal();
   return (
     <>
       <Head>
         <title>{pageTitle}</title>
-        <meta name="description" content={description || company.tagline} />
+        <meta name="description" content={pageDescription} />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta property="og:site_name" content={company.siteTitle} />
         <meta property="og:title" content={pageTitle} />
-        <meta property="og:description" content={description || company.tagline} />
+        <meta property="og:description" content={pageDescription} />
         <meta property="og:type" content="website" />
       </Head>
       <Navbar />

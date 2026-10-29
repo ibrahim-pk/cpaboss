@@ -344,7 +344,7 @@ export default function AboutPage() {
   return (
     <Layout
       title="About Us"
-      description={`Learn about ${company.name}: the company behind IdentitySearch.ai and Cpabossfootwear.com.`}
+      description={`Learn about ${company.legalName}, the company that owns and operates IdentitySearch.ai and Cpabossfootwear.com.`}
     >
       <WhoWeAre />
       <MissionVision />

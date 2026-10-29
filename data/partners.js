@@ -4,7 +4,7 @@
 export const partnersIntro = {
   title: "Our",
   highlight: "Partnerships",
-  text: "Innovation Solution Provider LLC relies on trusted technology, commerce, payment, and artificial intelligence partners — including Google Gemini AI, Shopify, NMI, Nexio, Kurv, AWS, and Namecheap — to run IdentitySearch.ai and Cpabossfootwear.com reliably and securely.",
+  text: "Cpa Boss Affiliate relies on trusted technology, commerce, payment, and artificial intelligence partners — including Google Gemini AI, Shopify, NMI, Nexio, Kurv, AWS, and Namecheap — to run IdentitySearch.ai and Cpabossfootwear.com reliably and securely.",
 };
 
 export const partnersSection = {

@@ -1,10 +1,16 @@
 // All site text and contact details live here, so you can edit content without touching components.
 
 export const company = {
-  name: "Innovation Solution Provider LLC",
-  shortName: "Innovation Solution Provider",
+  name: "Cpa Boss Affiliate",
+  shortName: "Cpa Boss Affiliate",
+  legalName: "Cpabossaffiliate LLC",
+  // Browser tab title (after the page name) and the default search-engine description
+  siteTitle: "Cpabossaffiliate",
+  description:
+    "Cpabossaffiliate LLC owns and operates IdentitySearch.ai, an AI report generator powered by Google Gemini, and Cpabossfootwear.com, an online shoe store built on Shopify.",
+  copyright: "© 2026 Identity Search AI Owned and Operated by Cpabossaffiliate LLC. All rights reserved.",
   tagline: "Providing Reliable Information and Promoting the Safety of Consumers Everywhere.",
-  email: "info@innovationsolutionprovider.com",
+  email: "info@cpabossaffiliate.com",
   phone: "+1 (307) 400-1496",
   phoneHref: "tel:+13074001496",
   addressLine1: "30 N Gould St Ste R",
@@ -40,7 +46,7 @@ export const images = {
 };
 
 export const hero = {
-  eyebrow: "Welcome to Innovation Solution Provider LLC",
+  eyebrow: "Welcome to Cpa Boss Affiliate",
   titleLine1: "Providing Reliable Information",
   titleLine2: "and Promoting the Safety of",
   titleHighlight: "Consumers Everywhere.",
@@ -48,7 +54,7 @@ export const hero = {
 };
 
 export const intro =
-  "Innovation Solution Provider LLC runs two online businesses: IdentitySearch.ai, an AI report generator powered by Google Gemini, and Cpabossfootwear.com, an online shoe store built on Shopify.";
+  "Cpa Boss Affiliate runs two online businesses: IdentitySearch.ai, an AI report generator powered by Google Gemini, and Cpabossfootwear.com, an online shoe store built on Shopify.";
 
 export const principles = [
   {
@@ -72,7 +78,7 @@ export const featureCards = [
   {
     icon: "gear",
     color: "green",
-    text: "Build, test, optimize, repeat. This mentality is the driving force at Innovation Solution Provider LLC. We keep improving our report generator, our store, and our customer experience through constant, careful testing.",
+    text: "Build, test, optimize, repeat. This mentality is the driving force at Cpa Boss Affiliate. We keep improving our report generator, our store, and our customer experience through constant, careful testing.",
   },
   {
     icon: "people",
@@ -84,7 +90,7 @@ export const featureCards = [
 export const success = {
   title: "How do we define",
   highlight: "SUCCESS?",
-  lead: "Innovation Solution Provider defines success the only way that matters: our customers get what they came for.",
+  lead: "Cpa Boss Affiliate defines success the only way that matters: our customers get what they came for.",
   paragraphs: [
     "For IdentitySearch.ai, that means a clear, useful report delivered quickly, with a secure card checkout customers can trust.",
     "For Cpabossfootwear.com, it means shoes that fit, orders that arrive as promised, and a store that is easy to shop.",
