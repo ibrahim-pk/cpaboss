@@ -8,7 +8,7 @@ export const company = {
   siteTitle: "Cpabossaffiliate",
   description:
     "Cpabossaffiliate LLC owns and operates IdentitySearch.ai, an AI report generator powered by Google Gemini, and Cpabossfootwear.com, an online shoe store built on Shopify.",
-  copyright: "© 2026 Identity Search AI Owned and Operated by Cpabossaffiliate LLC. All rights reserved.",
+  copyright: "© 2024 Cpabossaffiliate LLC All rights reserved.",
   tagline: "Providing Reliable Information and Promoting the Safety of Consumers Everywhere.",
   email: "info@cpabossaffiliate.com",
   phone: "+1 (307) 400-1496",
