@@ -59,12 +59,11 @@ function Hero() {
           <video
             className="relative aspect-video w-full rounded-3xl bg-sky-100 object-cover shadow-card"
             src={images.heroVideo}
-            poster={images.heroPoster}
             autoPlay
             muted
             loop
             playsInline
-            preload="metadata"
+            preload="auto"
             aria-label="Cpabossaffiliate LLC brand video"
           />
         </div>

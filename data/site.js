@@ -33,7 +33,6 @@ export const navLinks = [
 export const images = {
   logo: "/images/logo.png",
   heroVideo: "/videos/hero.mp4",
-  heroPoster: "/images/hero-poster.jpg",
   dashboard: "/images/dashboard.jpg",
   team: "/images/team-tablet.jpg",
   laptop: "/images/team-laptop.jpg",
