@@ -1,8 +1,8 @@
 // All site text and contact details live here, so you can edit content without touching components.
 
 export const company = {
-  name: "Cpa Boss Affiliate",
-  shortName: "Cpa Boss Affiliate",
+  name: "Cpabossaffiliate LLC",
+  shortName: "Cpabossaffiliate LLC",
   legalName: "Cpabossaffiliate LLC",
   // Browser tab title (after the page name) and the default search-engine description
   siteTitle: "Cpabossaffiliate",
@@ -17,11 +17,6 @@ export const company = {
   addressLine2: "Sheridan, WY 82801, USA",
   ein: "35-2863798",
   mapQuery: "30 N Gould St Ste R, Sheridan, WY 82801, USA",
-  social: {
-    facebook: "https://www.facebook.com/ISPLLCUSA",
-    twitter: "#",
-    linkedin: "https://www.linkedin.com/company/innovation-solution-provider-llc/",
-  },
 };
 
 export const navLinks = [
@@ -46,7 +41,7 @@ export const images = {
 };
 
 export const hero = {
-  eyebrow: "Welcome to Cpa Boss Affiliate",
+  eyebrow: "Welcome to Cpabossaffiliate LLC",
   titleLine1: "Providing Reliable Information",
   titleLine2: "and Promoting the Safety of",
   titleHighlight: "Consumers Everywhere.",
@@ -54,7 +49,7 @@ export const hero = {
 };
 
 export const intro =
-  "Cpa Boss Affiliate runs two online businesses: IdentitySearch.ai, an AI report generator powered by Google Gemini, and Cpabossfootwear.com, an online shoe store built on Shopify.";
+  "Cpabossaffiliate LLC runs two online businesses: IdentitySearch.ai, an AI report generator powered by Google Gemini, and Cpabossfootwear.com, an online shoe store built on Shopify.";
 
 export const principles = [
   {
@@ -78,7 +73,7 @@ export const featureCards = [
   {
     icon: "gear",
     color: "green",
-    text: "Build, test, optimize, repeat. This mentality is the driving force at Cpa Boss Affiliate. We keep improving our report generator, our store, and our customer experience through constant, careful testing.",
+    text: "Build, test, optimize, repeat. This mentality is the driving force at Cpabossaffiliate LLC. We keep improving our report generator, our store, and our customer experience through constant, careful testing.",
   },
   {
     icon: "people",
@@ -90,7 +85,7 @@ export const featureCards = [
 export const success = {
   title: "How do we define",
   highlight: "SUCCESS?",
-  lead: "Cpa Boss Affiliate defines success the only way that matters: our customers get what they came for.",
+  lead: "Cpabossaffiliate LLC defines success the only way that matters: our customers get what they came for.",
   paragraphs: [
     "For IdentitySearch.ai, that means a clear, useful report delivered quickly, with a secure card checkout customers can trust.",
     "For Cpabossfootwear.com, it means shoes that fit, orders that arrive as promised, and a store that is easy to shop.",

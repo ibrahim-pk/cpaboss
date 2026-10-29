@@ -1,4 +1,4 @@
-# Cpa Boss Affiliate — Website
+# Cpabossaffiliate LLC — Website
 
 Next.js (Pages Router) + Tailwind CSS.
 

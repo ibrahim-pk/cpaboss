@@ -1,9 +1,9 @@
 import { useEffect, useRef, useState } from "react";
 import { images } from "../data/site";
 
-// Shows /public/images/logo.png (a wide icon + wordmark lockup); falls back to a text wordmark if the file is missing.
+// Shows /public/images/logo.png (the wide "CPA BOSS Affiliate" wordmark); falls back to a text wordmark if the file is missing.
 // Pass `className` to set the size; it replaces the default header size.
-export default function Logo({ className = "h-9 w-auto sm:h-10 md:h-11" }) {
+export default function Logo({ className = "h-7 w-auto sm:h-8 lg:h-7 xl:h-10" }) {
   const [failed, setFailed] = useState(false);
   const imgRef = useRef(null);
 
@@ -19,7 +19,7 @@ export default function Logo({ className = "h-9 w-auto sm:h-10 md:h-11" }) {
       <img
         ref={imgRef}
         src={images.logo}
-        alt="Cpabossaffiliate"
+        alt="CPA BOSS Affiliate"
         className={className}
         onError={() => setFailed(true)}
       />
@@ -27,9 +27,10 @@ export default function Logo({ className = "h-9 w-auto sm:h-10 md:h-11" }) {
   }
 
   return (
-    <span className="text-2xl font-semibold tracking-wide">
-      <span className="text-[#143A6E]">Cpaboss</span>
-      <span className="text-[#6E7F96]">affiliate</span>
+    <span className="text-2xl font-black tracking-wide">
+      <span className="text-[#22E07A]">CPA </span>
+      <span className="text-[#C8D400]">BOSS </span>
+      <span className="text-ink">Affiliate</span>
     </span>
   );
 }

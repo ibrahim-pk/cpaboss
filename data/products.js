@@ -3,7 +3,7 @@
 export const productsIntro = {
   title: "Our",
   highlight: "Products",
-  text: "Cpa Boss Affiliate runs two online businesses: IdentitySearch.ai, an AI report generator sold as a digital product, and Cpabossfootwear.com, an online shoe store. Both are built to be fast, simple, and trustworthy for the customers who use them.",
+  text: "Cpabossaffiliate LLC runs two online businesses: IdentitySearch.ai, an AI report generator sold as a digital product, and Cpabossfootwear.com, an online shoe store. Both are built to be fast, simple, and trustworthy for the customers who use them.",
 };
 
 export const products = [

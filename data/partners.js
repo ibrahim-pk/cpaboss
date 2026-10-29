@@ -4,13 +4,13 @@
 export const partnersIntro = {
   title: "Our",
   highlight: "Partnerships",
-  text: "Cpa Boss Affiliate relies on trusted technology, commerce, payment, and artificial intelligence partners — including Google Gemini AI, Shopify, NMI, Nexio, Kurv, AWS, and Namecheap — to run IdentitySearch.ai and Cpabossfootwear.com reliably and securely.",
+  text: "Cpabossaffiliate LLC relies on trusted technology, commerce, and artificial intelligence partners — including Google Gemini AI, Shopify, AWS, and Namecheap — to run IdentitySearch.ai and Cpabossfootwear.com reliably and securely.",
 };
 
 export const partnersSection = {
   title: "Our",
   highlight: "Partners",
-  text: "The platforms behind our two products: AI that generates our reports, the store that sells our shoes, the payment providers our customers trust, and the infrastructure that keeps everything online.",
+  text: "The platforms behind our two products: AI that generates our reports, the store that sells our shoes, and the infrastructure that keeps everything online.",
 };
 
 export const partners = [
@@ -27,27 +27,6 @@ export const partners = [
     logo: "/images/partners/shopify.png",
     initial: "S",
     text: "Cpabossfootwear.com is built on Shopify, which runs our storefront, product catalog, and secure checkout for shoe customers.",
-  },
-  {
-    name: "NMI",
-    tag: "Payment Gateway",
-    logo: "/images/partners/nmi.png",
-    initial: "NMI",
-    text: "Card payments for IdentitySearch.ai reports run through the NMI payment gateway, which securely connects our checkout to our payment processors.",
-  },
-  {
-    name: "Nexio",
-    tag: "Payment Processing",
-    logo: "/images/partners/nexio.png",
-    initial: "N",
-    text: "Nexio processes card payments for IdentitySearch.ai, helping customers check out quickly and securely.",
-  },
-  {
-    name: "Kurv",
-    tag: "Payment Processing",
-    logo: "/images/partners/kurv.png",
-    initial: "K",
-    text: "Kurv provides payment processing for IdentitySearch.ai, giving our customers a reliable, secure way to pay for their reports.",
   },
   {
     name: "Amazon Web Services",

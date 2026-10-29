@@ -31,7 +31,7 @@ export default function Footer() {
           {/* Brand */}
           <div data-reveal className="sm:col-span-2 lg:col-span-1">
             <Link href="/" aria-label="Home" className="inline-block">
-              <Logo className="h-11 w-auto md:h-14" />
+              <Logo className="h-9 w-auto md:h-11" />
             </Link>
             <p className="mt-4 max-w-xs text-sm leading-relaxed text-slate-600">{company.tagline}</p>
           </div>

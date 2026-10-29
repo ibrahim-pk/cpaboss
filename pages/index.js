@@ -65,7 +65,7 @@ function Hero() {
             loop
             playsInline
             preload="metadata"
-            aria-label="Cpa Boss Affiliate brand video"
+            aria-label="Cpabossaffiliate LLC brand video"
           />
         </div>
       </div>

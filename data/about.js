@@ -6,12 +6,12 @@ export const whoWeAre = {
   title: "Two online businesses, built to be simple, secure, and trustworthy.",
   paragraphs: [
     `${company.name} is a Wyoming-registered limited liability company that builds and runs online products for consumers.`,
-    "Headquartered in New York, USA and founded in 2026, we operate two businesses: IdentitySearch.ai, an AI report generator sold as a digital product, and Cpabossfootwear.com, an online shoe store built on Shopify.",
+    "Headquartered in Wyoming, USA and founded in 2024, we operate two businesses: IdentitySearch.ai, an AI report generator sold as a digital product, and Cpabossfootwear.com, an online shoe store built on Shopify.",
   ],
   stats: [
-    { value: "2026", label: "Founded" },
+    { value: "2024", label: "Founded" },
     { value: "2", label: "Products" },
-    { value: "New York", label: "Headquarters" },
+    { value: "Wyoming", label: "Headquarters" },
   ],
 };
 
@@ -21,8 +21,8 @@ export const businessProfile = {
   rows: [
     { label: "Legal name", value: company.legalName },
     { label: "Entity type", value: "Limited Liability Company" },
-    { label: "Founded", value: "2026" },
-    { label: "Headquarters", value: "New York, USA" },
+    { label: "Founded", value: "2024" },
+    { label: "Headquarters", value: "Wyoming, USA" },
     { label: "Registered address", value: `${company.addressLine1}, ${company.addressLine2}` },
     { label: "Products", value: "IdentitySearch.ai, Cpabossfootwear.com" },
     { label: "Team size", value: "2–10" },

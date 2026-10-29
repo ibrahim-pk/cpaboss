@@ -119,7 +119,7 @@ function PlatformSpotlight() {
 
 export default function OurPartnersPage() {
   return (
-    <Layout title="Our Partners" description={`Partners and integrations of ${company.legalName}: Google Gemini AI, Shopify, NMI, Nexio, Kurv, AWS and Namecheap.`}>
+    <Layout title="Our Partners" description={`Partners and integrations of ${company.legalName}: Google Gemini AI, Shopify, AWS and Namecheap.`}>
       <PageHeader title={partnersIntro.title} highlight={partnersIntro.highlight} text={partnersIntro.text} />
       <Partners />
       <PlatformSpotlight />
