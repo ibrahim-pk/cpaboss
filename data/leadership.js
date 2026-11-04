@@ -33,7 +33,7 @@ export const leaders = [
     sections: [
       {
         label: "",
-        text: "Visionary leader Dr. Khan M. Elyas is CEO and Co-Founder of Innovation Solution Provider LLC. He has led in both the for-profit and non-profit sectors for nearly three decades (since 1998 after graduation), with more than two and a half decades devoted to social and economic development in Bangladesh, Italy, UK, France, USA and Globally." 
+        text: "Visionary leader Dr. Khan M. Elyas is CEO and Co-Founder of Cpabossaffiliate LLC. He has led in both the for-profit and non-profit sectors for nearly three decades (since 1998 after graduation), with more than two and a half decades devoted to social and economic development in Bangladesh, Italy, UK, France, USA and Globally." 
       },
       {
         label:"",
