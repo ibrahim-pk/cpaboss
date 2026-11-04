@@ -24,6 +24,28 @@ export const leaders = [
       },
     ],
   },
+
+  {
+    name: "Dr. Khan Mohammad Elyas",
+    role: "CEO and Co-Founder, Cpabossaffiliate LLC, USA.",
+    photo: "/images/leaders/khan-mohammad-elyas.jpg",
+    initials: "BH",
+    sections: [
+      {
+        label: "",
+        text: "Visionary leader Dr. Khan M. Elyas is CEO and Co-Founder of Innovation Solution Provider LLC. He has led in both the for-profit and non-profit sectors for nearly three decades (since 1998 after graduation), with more than two and a half decades devoted to social and economic development in Bangladesh, Italy, UK, France, USA and Globally." 
+      },
+      {
+        label:"",
+        text:"A dynamic program and policy strategist, he combines innovative research, market systems development, and strategic partnerships to advance sustainable development, health, food security, and livelihoods. He has a proven record of leading nationwide capacity-building, value chain development, and pro-poor growth initiatives. His technical strengths include program design, implementation, and monitoring and evaluation, and he works effectively with government stakeholders and diverse teams."
+      },
+      {
+        lebel:"",
+        text:"Known for his leadership and communication skills, Dr. Khan facilitates training sessions, workshops, seminars, and international conferences with equal ease. He also more then 20 publications on several issues of social science and, social and environmental justice."
+      }
+    ],
+  },
+
 ];
 
 export const structure = {
