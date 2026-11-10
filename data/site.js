@@ -13,10 +13,10 @@ export const company = {
   email: "info@cpabossaffiliate.com",
   phone: "+1 (307) 400-1496",
   phoneHref: "tel:+13074001496",
-  addressLine1: "30 N Gould St Ste R",
-  addressLine2: "Sheridan, WY 82801, USA",
-  ein: "35-2863798",
-  mapQuery: "30 N Gould St Ste R, Sheridan, WY 82801, USA",
+  addressLine1: "8 THE GREEN STE A",
+  addressLine2: "Dover, DE 19901, USA",
+  ein: "43-2882046",
+  mapQuery: "8 THE GREEN STE A, Dover, DE 19901, USA",
 };
 
 export const navLinks = [
